@@ -1,0 +1,12 @@
+{
+  "name": "safe_core_nan",
+  "version": "0.1.0",
+  "description": "safe_core wrapper with async interface",
+  "main": "addon.js",
+  "private": true,
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.0.0"
+  }
+}

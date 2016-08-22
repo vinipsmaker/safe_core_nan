@@ -1,0 +1,414 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bindings
+20 silly mapToRegistry name bindings
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/bindings
+24 silly fetchNamedPackageData nan
+25 silly mapToRegistry name nan
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/nan
+29 verbose request uri https://registry.npmjs.org/nan
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 6:30:22 PM
+32 verbose request id 71cb2ee08295952d
+33 verbose etag "EGTR1APXEV7TH8V3QYT0WN357"
+34 http request GET https://registry.npmjs.org/nan
+35 verbose request uri https://registry.npmjs.org/bindings
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 6:30:22 PM
+38 verbose etag "33TX4J3DNTGF7K41ZUV6OA182"
+39 http request GET https://registry.npmjs.org/bindings
+40 http 304 https://registry.npmjs.org/nan
+41 verbose headers { date: 'Thu, 11 Aug 2016 18:30:23 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   etag: '"EGTR1APXEV7TH8V3QYT0WN357"',
+41 verbose headers   age: '20',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-iad2648-IAD',
+41 verbose headers   'x-cache': 'HIT',
+41 verbose headers   'x-cache-hits': '2',
+41 verbose headers   'x-timer': 'S1470940223.816291,VS0,VE0',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 silly get cb [ 304,
+42 silly get   { date: 'Thu, 11 Aug 2016 18:30:23 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     etag: '"EGTR1APXEV7TH8V3QYT0WN357"',
+42 silly get     age: '20',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-iad2648-IAD',
+42 silly get     'x-cache': 'HIT',
+42 silly get     'x-cache-hits': '2',
+42 silly get     'x-timer': 'S1470940223.816291,VS0,VE0',
+42 silly get     vary: 'Accept-Encoding' } ]
+43 verbose etag https://registry.npmjs.org/nan from cache
+44 verbose get saving nan to /home/ubuntu/.npm/registry.npmjs.org/nan/.cache.json
+45 http 304 https://registry.npmjs.org/bindings
+46 verbose headers { date: 'Thu, 11 Aug 2016 18:30:23 GMT',
+46 verbose headers   via: '1.1 varnish',
+46 verbose headers   'cache-control': 'max-age=300',
+46 verbose headers   etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+46 verbose headers   age: '65',
+46 verbose headers   connection: 'keep-alive',
+46 verbose headers   'x-served-by': 'cache-iad2636-IAD',
+46 verbose headers   'x-cache': 'HIT',
+46 verbose headers   'x-cache-hits': '3',
+46 verbose headers   'x-timer': 'S1470940223.824208,VS0,VE0',
+46 verbose headers   vary: 'Accept-Encoding' }
+47 silly get cb [ 304,
+47 silly get   { date: 'Thu, 11 Aug 2016 18:30:23 GMT',
+47 silly get     via: '1.1 varnish',
+47 silly get     'cache-control': 'max-age=300',
+47 silly get     etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+47 silly get     age: '65',
+47 silly get     connection: 'keep-alive',
+47 silly get     'x-served-by': 'cache-iad2636-IAD',
+47 silly get     'x-cache': 'HIT',
+47 silly get     'x-cache-hits': '3',
+47 silly get     'x-timer': 'S1470940223.824208,VS0,VE0',
+47 silly get     vary: 'Accept-Encoding' } ]
+48 verbose etag https://registry.npmjs.org/bindings from cache
+49 verbose get saving bindings to /home/ubuntu/.npm/registry.npmjs.org/bindings/.cache.json
+50 silly resolveWithNewModule nan@2.4.0 checking installable status
+51 silly cache add args [ 'nan@^2.0.0', null ]
+52 verbose cache add spec nan@^2.0.0
+53 silly cache add parsed spec Result {
+53 silly cache add   raw: 'nan@^2.0.0',
+53 silly cache add   scope: null,
+53 silly cache add   name: 'nan',
+53 silly cache add   rawSpec: '^2.0.0',
+53 silly cache add   spec: '>=2.0.0 <3.0.0',
+53 silly cache add   type: 'range' }
+54 silly addNamed nan@>=2.0.0 <3.0.0
+55 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for nan
+56 silly addNameRange { name: 'nan', range: '>=2.0.0 <3.0.0', hasData: false }
+57 silly mapToRegistry name nan
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/nan
+61 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+62 silly resolveWithNewModule bindings@1.2.1 checking installable status
+63 silly cache add args [ 'bindings@~1.2.1', null ]
+64 verbose cache add spec bindings@~1.2.1
+65 silly cache add parsed spec Result {
+65 silly cache add   raw: 'bindings@~1.2.1',
+65 silly cache add   scope: null,
+65 silly cache add   name: 'bindings',
+65 silly cache add   rawSpec: '~1.2.1',
+65 silly cache add   spec: '>=1.2.1 <1.3.0',
+65 silly cache add   type: 'range' }
+66 silly addNamed bindings@>=1.2.1 <1.3.0
+67 verbose addNamed ">=1.2.1 <1.3.0" is a valid semver range for bindings
+68 silly addNameRange { name: 'bindings', range: '>=1.2.1 <1.3.0', hasData: false }
+69 silly mapToRegistry name bindings
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/bindings
+73 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+74 verbose get https://registry.npmjs.org/nan not expired, no request
+75 silly addNameRange number 2 { name: 'nan', range: '>=2.0.0 <3.0.0', hasData: true }
+76 silly addNameRange versions [ 'nan',
+76 silly addNameRange   [ '0.3.0-wip',
+76 silly addNameRange     '0.3.0-wip2',
+76 silly addNameRange     '0.3.0',
+76 silly addNameRange     '0.3.1',
+76 silly addNameRange     '0.3.2',
+76 silly addNameRange     '0.4.0',
+76 silly addNameRange     '0.4.1',
+76 silly addNameRange     '0.4.2',
+76 silly addNameRange     '0.4.3',
+76 silly addNameRange     '0.4.4',
+76 silly addNameRange     '0.5.0',
+76 silly addNameRange     '0.5.1',
+76 silly addNameRange     '0.5.2',
+76 silly addNameRange     '0.6.0',
+76 silly addNameRange     '0.7.0',
+76 silly addNameRange     '0.7.1',
+76 silly addNameRange     '0.8.0',
+76 silly addNameRange     '1.0.0',
+76 silly addNameRange     '1.1.0',
+76 silly addNameRange     '1.1.1',
+76 silly addNameRange     '1.1.2',
+76 silly addNameRange     '1.2.0',
+76 silly addNameRange     '1.3.0',
+76 silly addNameRange     '1.4.0',
+76 silly addNameRange     '1.4.1',
+76 silly addNameRange     '1.5.0',
+76 silly addNameRange     '1.4.2',
+76 silly addNameRange     '1.4.3',
+76 silly addNameRange     '1.5.1',
+76 silly addNameRange     '1.5.2',
+76 silly addNameRange     '1.6.0',
+76 silly addNameRange     '1.5.3',
+76 silly addNameRange     '1.6.1',
+76 silly addNameRange     '1.6.2',
+76 silly addNameRange     '1.7.0',
+76 silly addNameRange     '1.8.0',
+76 silly addNameRange     '1.8.1',
+76 silly addNameRange     '1.8.2',
+76 silly addNameRange     '1.8.3',
+76 silly addNameRange     '1.8.4',
+76 silly addNameRange     '1.9.0',
+76 silly addNameRange     '2.0.0',
+76 silly addNameRange     '2.0.1',
+76 silly addNameRange     '2.0.2',
+76 silly addNameRange     '2.0.3',
+76 silly addNameRange     '2.0.4',
+76 silly addNameRange     '2.0.5',
+76 silly addNameRange     '2.0.6',
+76 silly addNameRange     '2.0.7',
+76 silly addNameRange     '2.0.8',
+76 silly addNameRange     '2.0.9',
+76 silly addNameRange     '2.1.0',
+76 silly addNameRange     '2.2.0',
+76 silly addNameRange     '2.2.1',
+76 silly addNameRange     '2.3.0',
+76 silly addNameRange     '2.3.1',
+76 silly addNameRange     '2.3.2',
+76 silly addNameRange     '2.3.3',
+76 silly addNameRange     '2.3.4',
+76 silly addNameRange     '2.3.5',
+76 silly addNameRange     '2.4.0' ] ]
+77 silly addNamed nan@2.4.0
+78 verbose addNamed "2.4.0" is a plain semver version for nan
+79 verbose get https://registry.npmjs.org/bindings not expired, no request
+80 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.1 <1.3.0', hasData: true }
+81 silly addNameRange versions [ 'bindings',
+81 silly addNameRange   [ '0.0.1',
+81 silly addNameRange     '0.1.0',
+81 silly addNameRange     '0.1.1',
+81 silly addNameRange     '0.2.0',
+81 silly addNameRange     '0.2.1',
+81 silly addNameRange     '0.2.2',
+81 silly addNameRange     '0.2.3',
+81 silly addNameRange     '0.2.4',
+81 silly addNameRange     '0.3.0',
+81 silly addNameRange     '0.4.0',
+81 silly addNameRange     '1.0.0',
+81 silly addNameRange     '1.1.0',
+81 silly addNameRange     '1.1.1',
+81 silly addNameRange     '1.2.0',
+81 silly addNameRange     '1.2.1' ] ]
+82 silly addNamed bindings@1.2.1
+83 verbose addNamed "1.2.1" is a plain semver version for bindings
+84 silly cache afterAdd bindings@1.2.1
+85 verbose afterAdd /home/ubuntu/.npm/bindings/1.2.1/package/package.json not in flight; writing
+86 verbose afterAdd /home/ubuntu/.npm/bindings/1.2.1/package/package.json written
+87 silly cache afterAdd nan@2.4.0
+88 verbose afterAdd /home/ubuntu/.npm/nan/2.4.0/package/package.json not in flight; writing
+89 verbose afterAdd /home/ubuntu/.npm/nan/2.4.0/package/package.json written
+90 silly loadAllDepsIntoIdealTree Finishing
+91 silly idealTree:prePrune safe_core_nan@0.1.0
+91 silly idealTree:prePrune ├── bindings@1.2.1
+91 silly idealTree:prePrune └── nan@2.4.0
+92 silly loadIdealTree Finishing
+93 silly currentTree safe_core_nan@0.1.0
+94 silly idealTree safe_core_nan@0.1.0
+94 silly idealTree ├── bindings@1.2.1
+94 silly idealTree └── nan@2.4.0
+95 silly generateActionsToTake Starting
+96 silly install generateActionsToTake
+97 silly generateActionsToTake Finishing
+98 silly diffTrees action count 2
+99 silly diffTrees add bindings@1.2.1
+100 silly diffTrees add nan@2.4.0
+101 silly decomposeActions action count 16
+102 silly decomposeActions fetch bindings@1.2.1
+103 silly decomposeActions extract bindings@1.2.1
+104 silly decomposeActions preinstall bindings@1.2.1
+105 silly decomposeActions build bindings@1.2.1
+106 silly decomposeActions install bindings@1.2.1
+107 silly decomposeActions postinstall bindings@1.2.1
+108 silly decomposeActions test bindings@1.2.1
+109 silly decomposeActions finalize bindings@1.2.1
+110 silly decomposeActions fetch nan@2.4.0
+111 silly decomposeActions extract nan@2.4.0
+112 silly decomposeActions preinstall nan@2.4.0
+113 silly decomposeActions build nan@2.4.0
+114 silly decomposeActions install nan@2.4.0
+115 silly decomposeActions postinstall nan@2.4.0
+116 silly decomposeActions test nan@2.4.0
+117 silly decomposeActions finalize nan@2.4.0
+118 silly executeActions Starting
+119 silly install executeActions
+120 silly doSerial global-install 0
+121 silly doParallel fetch 2
+122 verbose lock using /home/ubuntu/.npm/_locks/staging-10e8a6591cf7462a.lock for /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging
+123 silly doParallel extract 2
+124 silly extract bindings@1.2.1
+125 silly extract nan@2.4.0
+126 verbose unbuild node_modules/.staging/bindings-0b0032fe6dc7a97b1a2e2e312de22ddf
+127 verbose unbuild node_modules/.staging/nan-e4655da5129aa8b51ad1040f6cd9e1e0
+128 silly gentlyRm /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/bindings-0b0032fe6dc7a97b1a2e2e312de22ddf is being purged from base /home/ubuntu/Projetos/safe_core_nan
+129 silly gentlyRm /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/nan-e4655da5129aa8b51ad1040f6cd9e1e0 is being purged from base /home/ubuntu/Projetos/safe_core_nan
+130 verbose gentlyRm don't care about contents; nuking /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/bindings-0b0032fe6dc7a97b1a2e2e312de22ddf
+131 verbose gentlyRm don't care about contents; nuking /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/nan-e4655da5129aa8b51ad1040f6cd9e1e0
+132 verbose tar unpack /home/ubuntu/.npm/bindings/1.2.1/package.tgz
+133 verbose tar unpacking to /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/bindings-0b0032fe6dc7a97b1a2e2e312de22ddf
+134 silly gentlyRm /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/bindings-0b0032fe6dc7a97b1a2e2e312de22ddf is being purged
+135 verbose tar unpack /home/ubuntu/.npm/nan/2.4.0/package.tgz
+136 verbose tar unpacking to /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/nan-e4655da5129aa8b51ad1040f6cd9e1e0
+137 silly gentlyRm /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/nan-e4655da5129aa8b51ad1040f6cd9e1e0 is being purged
+138 verbose gentlyRm don't care about contents; nuking /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/bindings-0b0032fe6dc7a97b1a2e2e312de22ddf
+139 verbose gentlyRm don't care about contents; nuking /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/nan-e4655da5129aa8b51ad1040f6cd9e1e0
+140 silly gunzTarPerm modes [ '775', '664' ]
+141 silly gunzTarPerm modes [ '775', '664' ]
+142 silly gunzTarPerm extractEntry package.json
+143 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+144 silly gunzTarPerm extractEntry package.json
+145 silly gunzTarPerm extractEntry README.md
+146 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+147 silly gunzTarPerm extractEntry bindings.js
+148 silly gunzTarPerm modified mode [ 'bindings.js', 420, 436 ]
+149 silly gunzTarPerm extractEntry README.md
+150 silly gunzTarPerm extractEntry include_dirs.js
+151 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+152 silly gunzTarPerm extractEntry CHANGELOG.md
+153 silly gunzTarPerm extractEntry LICENSE.md
+154 silly gunzTarPerm extractEntry doc/node_misc.md
+155 silly gunzTarPerm extractEntry doc/asyncworker.md
+156 silly gunzTarPerm extractEntry doc/callback.md
+157 silly gunzTarPerm extractEntry doc/converters.md
+158 silly gunzTarPerm extractEntry doc/errors.md
+159 silly gunzTarPerm extractEntry doc/maybe_types.md
+160 silly gunzTarPerm extractEntry doc/methods.md
+161 silly gunzTarPerm extractEntry doc/new.md
+162 silly gunzTarPerm extractEntry doc/buffers.md
+163 silly gunzTarPerm extractEntry doc/object_wrappers.md
+164 silly gunzTarPerm extractEntry doc/persistent.md
+165 silly gunzTarPerm extractEntry doc/scopes.md
+166 silly gunzTarPerm extractEntry doc/script.md
+167 silly gunzTarPerm extractEntry doc/string_bytes.md
+168 silly gunzTarPerm extractEntry doc/v8_internals.md
+169 silly gunzTarPerm extractEntry doc/v8_misc.md
+170 silly gunzTarPerm extractEntry nan.h
+171 silly gunzTarPerm extractEntry nan_callbacks.h
+172 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+173 silly gunzTarPerm extractEntry nan_converters.h
+174 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+175 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+176 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+177 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+178 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+179 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+180 silly gunzTarPerm extractEntry nan_new.h
+181 silly gunzTarPerm extractEntry nan_object_wrap.h
+182 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+183 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+184 silly gunzTarPerm extractEntry nan_string_bytes.h
+185 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+186 silly gunzTarPerm extractEntry nan_weak.h
+187 silly gunzTarPerm extractEntry tools/package.json
+188 silly gunzTarPerm extractEntry tools/README.md
+189 silly gunzTarPerm extractEntry tools/1to2.js
+190 silly doParallel preinstall 2
+191 silly preinstall bindings@1.2.1 /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/bindings-0b0032fe6dc7a97b1a2e2e312de22ddf
+192 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+193 silly preinstall nan@2.4.0 /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/nan-e4655da5129aa8b51ad1040f6cd9e1e0
+194 info lifecycle nan@2.4.0~preinstall: nan@2.4.0
+195 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+196 silly lifecycle nan@2.4.0~preinstall: no script for preinstall, continuing
+197 silly doReverseSerial remove 0
+198 silly doSerial move 0
+199 silly doSerial finalize 2
+200 silly finalize /home/ubuntu/Projetos/safe_core_nan/node_modules/bindings
+201 silly finalize /home/ubuntu/Projetos/safe_core_nan/node_modules/nan
+202 silly doSerial build 2
+203 silly build bindings@1.2.1
+204 info linkStuff bindings@1.2.1
+205 silly linkStuff bindings@1.2.1 has /home/ubuntu/Projetos/safe_core_nan/node_modules as its parent node_modules
+206 verbose linkBins bindings@1.2.1
+207 verbose linkMans bindings@1.2.1
+208 silly build nan@2.4.0
+209 info linkStuff nan@2.4.0
+210 silly linkStuff nan@2.4.0 has /home/ubuntu/Projetos/safe_core_nan/node_modules as its parent node_modules
+211 verbose linkBins nan@2.4.0
+212 verbose linkMans nan@2.4.0
+213 silly doSerial global-link 0
+214 silly doParallel update-linked 0
+215 silly doSerial install 2
+216 silly install bindings@1.2.1 /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/bindings-0b0032fe6dc7a97b1a2e2e312de22ddf
+217 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+218 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+219 silly install nan@2.4.0 /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/nan-e4655da5129aa8b51ad1040f6cd9e1e0
+220 info lifecycle nan@2.4.0~install: nan@2.4.0
+221 silly lifecycle nan@2.4.0~install: no script for install, continuing
+222 silly doSerial postinstall 2
+223 silly postinstall bindings@1.2.1 /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/bindings-0b0032fe6dc7a97b1a2e2e312de22ddf
+224 info lifecycle bindings@1.2.1~postinstall: bindings@1.2.1
+225 silly lifecycle bindings@1.2.1~postinstall: no script for postinstall, continuing
+226 silly postinstall nan@2.4.0 /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging/nan-e4655da5129aa8b51ad1040f6cd9e1e0
+227 info lifecycle nan@2.4.0~postinstall: nan@2.4.0
+228 silly lifecycle nan@2.4.0~postinstall: no script for postinstall, continuing
+229 verbose unlock done using /home/ubuntu/.npm/_locks/staging-10e8a6591cf7462a.lock for /home/ubuntu/Projetos/safe_core_nan/node_modules/.staging
+230 silly executeActions Finishing
+231 silly rollbackFailedOptional Starting
+232 silly rollbackFailedOptional Finishing
+233 silly runTopLevelLifecycles Starting
+234 silly install runTopLevelLifecycles
+235 silly preinstall safe_core_nan@0.1.0 /home/ubuntu/Projetos/safe_core_nan/safe_core_nan-dd66c577671947e194771ce5b5dbef69
+236 info lifecycle safe_core_nan@0.1.0~preinstall: safe_core_nan@0.1.0
+237 silly lifecycle safe_core_nan@0.1.0~preinstall: no script for preinstall, continuing
+238 silly build safe_core_nan@0.1.0
+239 info linkStuff safe_core_nan@0.1.0
+240 silly linkStuff safe_core_nan@0.1.0 has /home/ubuntu/Projetos as its parent node_modules
+241 verbose linkBins safe_core_nan@0.1.0
+242 verbose linkMans safe_core_nan@0.1.0
+243 silly install safe_core_nan@0.1.0 /home/ubuntu/Projetos/safe_core_nan/safe_core_nan-dd66c577671947e194771ce5b5dbef69
+244 info lifecycle safe_core_nan@0.1.0~install: safe_core_nan@0.1.0
+245 verbose lifecycle safe_core_nan@0.1.0~install: unsafe-perm in lifecycle true
+246 verbose lifecycle safe_core_nan@0.1.0~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/home/ubuntu/Projetos/safe_core_nan/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ubuntu/Sistema/bin
+247 verbose lifecycle safe_core_nan@0.1.0~install: CWD: /home/ubuntu/Projetos/safe_core_nan
+248 silly lifecycle safe_core_nan@0.1.0~install: Args: [ '-c', 'node-gyp rebuild' ]
+249 silly lifecycle safe_core_nan@0.1.0~install: Returned: code: 1  signal: null
+250 info lifecycle safe_core_nan@0.1.0~install: Failed to exec install script
+251 verbose stack Error: safe_core_nan@0.1.0 install: `node-gyp rebuild`
+251 verbose stack Exit status 1
+251 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
+251 verbose stack     at emitTwo (events.js:100:13)
+251 verbose stack     at EventEmitter.emit (events.js:185:7)
+251 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+251 verbose stack     at emitTwo (events.js:100:13)
+251 verbose stack     at ChildProcess.emit (events.js:185:7)
+251 verbose stack     at maybeClose (internal/child_process.js:821:16)
+251 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+252 verbose pkgid safe_core_nan@0.1.0
+253 verbose cwd /home/ubuntu/Projetos/safe_core_nan
+254 error Linux 4.6.3-1-ARCH
+255 error argv "/usr/bin/nodejs" "/usr/local/bin/npm" "install"
+256 error node v5.5.0
+257 error npm  v3.3.12
+258 error code ELIFECYCLE
+259 error safe_core_nan@0.1.0 install: `node-gyp rebuild`
+259 error Exit status 1
+260 error Failed at the safe_core_nan@0.1.0 install script 'node-gyp rebuild'.
+260 error Make sure you have the latest version of node.js and npm installed.
+260 error If you do, this is most likely a problem with the safe_core_nan package,
+260 error not with npm itself.
+260 error Tell the author that this fails on your system:
+260 error     node-gyp rebuild
+260 error You can get their info via:
+260 error     npm owner ls safe_core_nan
+260 error There is likely additional logging output above.
+261 verbose exit [ 1, true ]
